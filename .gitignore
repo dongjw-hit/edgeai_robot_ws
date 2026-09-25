@@ -1,0 +1,20 @@
+# Pixi environment
+.pixi/*
+!.pixi/config.toml
+
+# ROS 2 / colcon generated directories
+build/
+install/
+log/
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# TF debugging outputs
+frames_*.gv
+frames_*.pdf
+
+# Editor / temporary files
+*~
+*.swp
