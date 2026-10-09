@@ -16,8 +16,9 @@ install(
     launch
     urdf
     worlds
-    meshes
     rviz
+    config
+    maps
   DESTINATION share/${PROJECT_NAME}
 )
 
